@@ -1,0 +1,20 @@
+Version of session file format:
+               1
+Time of storage:
+               "Sat Sep 20 16:50:34 BST 2014"
+Layout:        VerticalP (TerminalP {paneGroups = fromList [], paneTabs = Just TopP, currentPage = 2, detachedId = Nothing, detachedSize = Nothing}) (HorizontalP (TerminalP {paneGroups = fromList [("Debug",HorizontalP (TerminalP {paneGroups = fromList [], paneTabs = Nothing, currentPage = -1, detachedId = Nothing, detachedSize = Nothing}) (TerminalP {paneGroups = fromList [], paneTabs = Just TopP, currentPage = -1, detachedId = Nothing, detachedSize = Nothing}) 121)], paneTabs = Just TopP, currentPage = 4, detachedId = Nothing, detachedSize = Nothing}) (TerminalP {paneGroups = fromList [], paneTabs = Just TopP, currentPage = 2, detachedId = Nothing, detachedSize = Nothing}) 336) 796
+Population:    [(Just (ErrorsSt ErrorsState),[SplitP RightP,SplitP TopP]),(Just (FilesSt FilesState),[SplitP RightP,SplitP TopP]),(Just (HLintSt HLintState),[SplitP RightP,SplitP TopP]),(Just (InfoSt (InfoState Nothing)),[SplitP RightP,SplitP BottomP]),(Just (LogSt LogState),[SplitP RightP,SplitP BottomP]),(Just (BufferSt (BufferState "/Users/beckfordp/.leksah-0.14/leksah-welcome/src/Main.hs" 370)),[SplitP LeftP]),(Just (ModulesSt (ModulesState 347 (WorkspaceScope False,False) (Nothing,Nothing) (ExpanderState {packageExp = ([],[]), packageExpNoBlack = ([],[]), packageDExp = ([],[]), packageDExpNoBlack = ([],[]), workspaceExp = ([],[]), workspaceExpNoBlack = ([],[]), workspaceDExp = ([],[]), workspaceDExpNoBlack = ([],[]), systemExp = ([],[]), systemExpNoBlack = ([],[])}))),[SplitP RightP,SplitP TopP]),(Just (WorkspaceSt WorkspaceState),[SplitP RightP,SplitP BottomP]),(Just (BufferSt (BufferState "/Users/beckfordp/dev/haskell/tic-tac-toe/tic.cabal" 0)),[SplitP LeftP]),(Just (BufferSt (BufferState "/Users/beckfordp/dev/haskell/tic-tac-toe/tic.lkshw" 404)),[SplitP LeftP])]
+Window size:   (1439,852)
+Full screen:   False
+Dark:          True
+Completion size:
+               (750,400)
+Workspace:     Just "/Users/beckfordp/dev/haskell/tic-tac-toe/tic.lkshw"
+Active pane:   Just "tic.lkshw"
+Toolbar visible:
+               True
+FindbarState:  (True,FindState {entryStr = "", entryHist = [], replaceStr = "", replaceHist = [], caseSensitive = False, entireWord = False, wrapAround = False, regex = False, lineNr = 1})
+Recently opened files:
+               ["/Users/beckfordp/dev/haskell/Test/Test.cabal","/Users/beckfordp/dev/haskell/Test/src/hello.hs","/Users/beckfordp/.leksah-0.14/leksah-welcome/src/Main.hs","/Users/beckfordp/dev/haskell/Hello2/src/hello.hs"]
+Recently opened workspaces:
+               ["/Users/beckfordp/leksah.lkshw"]

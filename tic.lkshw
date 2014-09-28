@@ -1,0 +1,14 @@
+Version of workspace file format:
+               2
+Time of storage:
+               "Sat Sep 20 20:52:03 BST 2014"
+Name of the workspace:
+               "tic"
+File paths of contained packages:
+               ["tic.cabal"]
+Maybe file path of an active package:
+               Just "tic.cabal"
+Maybe name of an active executable:
+               Just "tic"
+Version Control System configurations for packages:
+               fromList []

@@ -1,0 +1,39 @@
+name:          tic
+version:       0.0.0
+license:       MIT
+copyright:     (c) 2013 Pat Brisbin
+author:        Paul Beckford<beckfordp@gmail.com>
+maintainer:    Paul Beckford <beckfordp@gmail.com>
+build-type:    Simple
+cabal-version: >= 1.8
+
+executable tic
+  main-is:         Main.hs
+  hs-source-dirs:  src
+  build-depends:   base, split >= 0.2.2, mtl >= 2.1.3.1, containers >= 0.5.5.1
+  extensions: DoAndIfThenElse
+
+library
+  ghc-options:
+      -Wall
+  hs-source-dirs:
+      src
+  exposed-modules: Game, Engine, Position
+  build-depends:   base, split >= 0.2.2, mtl >= 2.1.3.1, containers >= 0.5.5.1
+  extensions: DoAndIfThenElse
+
+test-suite spec
+  type:
+      exitcode-stdio-1.0
+  ghc-options:
+      -Wall 
+  hs-source-dirs:
+      test
+  main-is:
+      Spec.hs
+  build-depends: base  == 4.*
+               , split >= 0.2.2, mtl >= 2.1.3.1, containers >= 0.5.5.1
+               , QuickCheck >= 2.6
+               , hspec >= 1.3
+               , tic
+

@@ -1,0 +1,256 @@
+Test suite spec: RUNNING...
+
+Engine
+  Engine
+    minimax
+      - should determine a win for X
+      - should determine a win for O
+      - should determine a draw
+      - should determine a win for X in 1 move
+      - should determine a win for O in 1 move
+      - should determine a value from cache
+
+    bestMove
+      - should determine the best move for X
+      - should determine the best move for O
+
+Game
+  TTT.Game
+    render
+      - should render a position
+
+    askForPlayer
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+      - should quit
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+      - should pick the computer
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+      - should pick the human
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+      - should handle bad input
+
+    askForMove
+Make a move
+      - should quit
+Make a move
+      - should make a valid move
+Make a move
+Pick an empty square on the board
+Make a move
+      - should make a invalid move
+Make a move
+invalid input.  Please Make a move
+Make a move
+      - should handle bad input
+
+    play
+Welcome to Tic Tac Toe
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+      - should quit
+Welcome to Tic Tac Toe
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+ 0 | 1 | 2 
+-----------
+ 3 | 4 | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+      - should select the human to go first
+Welcome to Tic Tac Toe
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+ 0 | 1 | 2 
+-----------
+ 3 | 4 | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+ X | 1 | 2 
+-----------
+ 3 | 4 | 5 
+-----------
+ 6 | 7 | 8 
+
+ X | 1 | 2 
+-----------
+ 3 | O | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+      - should make a move
+Welcome to Tic Tac Toe
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+ 0 | 1 | 2 
+-----------
+ 3 | 4 | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+ X | 1 | 2 
+-----------
+ 3 | 4 | 5 
+-----------
+ 6 | 7 | 8 
+
+ X | 1 | 2 
+-----------
+ 3 | O | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+ X | X | 2 
+-----------
+ 3 | O | 5 
+-----------
+ 6 | 7 | 8 
+
+ X | X | O 
+-----------
+ 3 | O | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+ X | X | O 
+-----------
+ X | O | 5 
+-----------
+ 6 | 7 | 8 
+
+ X | X | O 
+-----------
+ X | O | 5 
+-----------
+ O | 7 | 8 
+
+      - should play a complete game
+Welcome to Tic Tac Toe
+Who do you want to go first?
+  1. Computer
+  2. Human
+  q - quit
+ 0 | 1 | 2 
+-----------
+ 3 | 4 | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+ X | 1 | 2 
+-----------
+ 3 | 4 | 5 
+-----------
+ 6 | 7 | 8 
+
+ X | 1 | 2 
+-----------
+ 3 | O | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+ X | X | 2 
+-----------
+ 3 | O | 5 
+-----------
+ 6 | 7 | 8 
+
+ X | X | O 
+-----------
+ 3 | O | 5 
+-----------
+ 6 | 7 | 8 
+
+Make a move
+ X | X | O 
+-----------
+ 3 | O | 5 
+-----------
+ X | 7 | 8 
+
+ X | X | O 
+-----------
+ O | O | 5 
+-----------
+ X | 7 | 8 
+
+Make a move
+ X | X | O 
+-----------
+ O | O | X 
+-----------
+ X | 7 | 8 
+
+ X | X | O 
+-----------
+ O | O | X 
+-----------
+ X | O | 8 
+
+Make a move
+ X | X | O 
+-----------
+ O | O | X 
+-----------
+ X | O | X 
+
+      - should play to a draw
+
+Position
+  Position
+    initPosition
+      - should create a new position
+
+    move
+      - should make a move
+
+    possibleMoves
+      - should list possible moves for a position
+
+    isWinFor
+      - should determine no win
+      - should determine a win for X in first row
+      - should determine a win for X in second row
+      - should determine a win for X in third row
+      - should determine a win for O in first row
+      - should determine a win for O in second row
+      - should determine a win for O in third row
+      - should determine a win for O in major diagonal
+      - should determine a win for O in minor diagonal
+
+Finished in 0.1733 seconds
+34 examples, 0 failures
+Test suite spec: PASS
+Test suite logged to: dist/test/tic-0.0.0-spec.log
