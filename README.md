@@ -45,8 +45,8 @@ Testing
 
 to Run the specs using Guard:
 
+```bash
 bundle install
 
 bundle exec guard
-
-gem
+```
